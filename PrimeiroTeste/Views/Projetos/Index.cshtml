@@ -1,0 +1,11 @@
+﻿@using PrimeiroTeste.Models.ViewModels
+
+@model ProjetoViewModel
+
+<div>
+    @foreach (var projeto in Model.Projetos)
+   {
+    <h1>@projeto.Titulo</h1>
+    <h1>@projeto.Descricao</h1>
+    }
+</div>
